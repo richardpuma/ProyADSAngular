@@ -17,6 +17,7 @@ export class AppComponent {
   apellido ='cambio en rama develop';
 
   esteEsUnMetodo(){
-    var varLocal = 'variable local desde develop':
+    var varLocal = 'variable local desde develop';
+    var varHome = 'variable local desde local pc';
   }
 }
