@@ -13,6 +13,7 @@ export class AppComponent {
 
   obtenerRadio(){
     var nombreRadio = 'romantica desde master';
+    var nombreRadioInternacional = 'radio españa';
   }
   apellido ='cambio en rama develop';
 
