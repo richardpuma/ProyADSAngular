@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ProyADSAngular';
   subtitulo = 'este es un subtitulo';
+  nombre = 'richard desde github';
 }
