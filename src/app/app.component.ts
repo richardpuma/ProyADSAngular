@@ -14,4 +14,9 @@ export class AppComponent {
   obtenerRadio(){
     var nombreRadio = 'romantica desde master';
   }
+  apellido ='cambio en rama develop';
+
+  esteEsUnMetodo(){
+    var varLocal = 'variable local desde develop':
+  }
 }
