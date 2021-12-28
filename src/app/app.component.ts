@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'ProyADSAngular';
   subtitulo = 'este es un subtitulo';
   nombre = 'richard desde github';
+  apellido ='cambio en rama develop';
+
+  esteEsUnMetodo(){
+    var varLocal = 'variable local desde develop':
+  }
 }
