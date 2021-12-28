@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'ProyADSAngular';
   subtitulo = 'este es un subtitulo';
   nombre = 'richard desde github';
+  radio = 'nueva q desde master';
+
+  obtenerRadio(){
+    var nombreRadio = 'romantica desde master';
+  }
 }
