@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,14 +11,17 @@ export class AppComponent {
   nombre = 'richard desde github';
   radio = 'nueva q desde master';
 
-  obtenerRadio(){
+  obtenerRadio() {
     var nombreRadio = 'romantica desde master';
     var nombreRadioInternacional = 'radio españa';
+    this.esteEsUnMetodo();
   }
-  apellido ='cambio en rama develop';
 
-  esteEsUnMetodo(){
+  apellido = 'cambio en rama develop';
+
+  esteEsUnMetodo() {
     var varLocal = 'variable local desde develop';
     var varHome = 'variable local desde local pc';
+    this.radio = 'radio oasiss';
   }
 }
